@@ -1,0 +1,153 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#header{
+  width: 100%;
+  height: 30px;
+  background-color: #008080;
+  border: 1px solid  #008080;
+}
+.divlogo{
+  width:30%;
+  height:60px;
+  float:left;
+  color:#008080;
+  text-transform: uppercase;
+} 
+.divlogo img{
+  width: 20%;
+  height:60px;
+  float:left;
+  padding: 6px;
+  padding-left: 50px;   
+} 
+h2{
+color:#008080;
+}
+.circular--square { 
+border-radius: 50%; 
+}
+#menuNav{
+  padding-left: 50%;
+  padding-top: 25px;  
+}
+nav > a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px 5px 10px;
+}
+nav > a:hover{
+  border: 1px solid #008080;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}
+.active{
+  width: auto; 
+  background: #008080 ;
+  color: white;
+  border-radius: 20px;
+}
+#content{
+  width: 100%;
+  height: auto;
+  background-color:#f4f3f3;
+  border: 1px solid #f4f3f3;
+}
+.divlogin{
+width: 49%;
+height: 480px;
+background-color: #F5F5F5;
+border-radius: 30px;
+}
+.divlogin img{
+width: 100%; 
+height: 150px;
+border-radius: 20px 20px 0px 0px;
+}
+.inputA{
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+textarea{
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+.buttonA{
+display: inline-block;
+background-color: #008080;
+padding: 10px 15px;
+color: #fff;
+font-size: 11px;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 20px;
+font-family: inherit;
+}
+#submit2{
+display: inline-block;
+  font-family: inherit;
+background-color: #008080;
+padding: 12px 18px;
+color: #fff;
+font-size: 11px;
+letter-spacing: 1px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 20px;
+border: 1px solid #008080;
+}
+#search{
+width:250px;
+height:10px;
+border: 1px solid #008080;
+border-radius:20px;
+font-family: inherit;
+font-size:11px;
+padding: 14px 20px;
+}
+table{
+border-spacing: 1;
+border-collapse: collapse;
+background: white;
+border-radius: 10px;
+overflow: hidden;
+width: 98%;
+margin: 0 auto;
+position: relative;
+font-family: inherit;
+
+
+}
+#tab{
+margin:0 auto;
+color:#8c8c8c;
+border-radius: 30px;
+text-align:center;
+border: 1px solid #008080;
+background-color:white;
+
+}
+#tr{
+font-family: inherit;
+border-radius: 50px;
+line-height: 1.2;
+font-size:15px;
+width:auto;
+height:50px;
+text-align:center;
+background-color:#008080;
+text-transform: uppercase;
+text-decoration: none;
+}
